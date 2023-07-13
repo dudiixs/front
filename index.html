@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Viamaker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside>
+        <nav class="inicial">
+            <a class="vm" href="index.html" alt="">
+                <img class="logo" src="imagens/images-removebg-preview.png">
+            </a>
+            <ul>
+                <li>
+                    <a class="posts" href="posts.html" alt="">
+                        Posts
+                    </a>
+                </li>
+                <li>
+                    <a class="posts" href="usuarios.html" alt="">
+                        Usuários
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div>
+        <h2 class="title">Página Inicial</h2>
+        <video class="video" src="video.mp4" type="video/mp4"></video>
+    </div>
+    <script>
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+            .then(response => response.json())
+            .then(json => console.log(json))
+    </script>
+</body>
+
+</html>

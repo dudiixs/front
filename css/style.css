@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+}
+
+nav {
+    border-right: 2px solid;
+    border-color: black;
+    padding: 0;
+    margin: 0;
+    background-color: #93d7ff;
+    background-image: repeating-linear-gradient(-50deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 1px, transparent 1px, transparent 6px);
+    background-size: 8px 8px;
+}
+
+.posts {
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    border-radius: 9px;
+    height: 50px;
+    width: 155px;
+    margin-left: 25px;
+    margin-top: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    color: black;
+    font-size: 25px;
+}
+
+.posts:hover {
+    transition: all 0.5s ease-in;
+    background-color: #76777c;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 210px 500px;
+    gap: 50px;
+    background-color: #d5fdff;
+}
+
+.vm {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    color: black;
+}
+
+.video {
+    width: 700px;
+}
+
+.title {
+    padding: 15px;
+    display: flex;
+    justify-content: flex;
+}
+
+.title2 {
+    padding: 15px;
+    display: flex;
+    justify-content: flex;
+}
+
+.title3 {
+    padding: 15px;
+    display: flex;
+    justify-content: flex;
+}
+
+.logo {
+    height: 100px;
+}
+
+.teste {
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    width: 350px;
+    margin-top: 25px;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    color: black;
+    padding-right: 100px;
+    border-width: medium;
+    border-radius: 9px;
+    background-color: #e2e2e2;
+}
+
+.teste:hover {
+    transition: all 0.5s ease-in;
+    background-color: #76777c;
+    color: white;
+}
+
+.inicial {
+    height: 1050px;
+}
+
+.nav-posts {
+    height: 100%;
+}
+
+.users-nav {
+    height: 1050px;
+}
+
+.post {
+    background-color: #ffd700;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    background-color: #e2e2e2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
