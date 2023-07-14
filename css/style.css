@@ -4,18 +4,6 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.inicial {
-    height: 1050px;
-}
-
-.div-posts {
-    height: 100%;
-}
-
-.users-nav {
-    height: 1050px;
-}
-
 .post {
     background-color: #ffd700;
     border: 1px solid #ccc;
@@ -32,16 +20,8 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.vm {
-    width: 200px;
-}
-
-.risco {
-    border-right: solid 2px black;    
-}
-
 .ativa {
     font-weight: bold;
-    color: red;
-    background-color: #ffd700;
+    color: white;
+    background-color: black;
 }
