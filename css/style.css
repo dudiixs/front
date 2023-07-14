@@ -39,3 +39,9 @@
 .risco {
     border-right: solid 2px black;    
 }
+
+.ativa {
+    font-weight: bold;
+    color: red;
+    background-color: #ffd700;
+}
