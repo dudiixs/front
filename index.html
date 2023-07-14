@@ -4,35 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Viamaker</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Usuarios</title>
 </head>
 
 <body>
     <aside>
-        <nav class="users-nav">
+        <nav class="inicial">
             <a class="vm" href="index.html" alt="">
                 <img class="logo" src="imagens/images-removebg-preview.png">
             </a>
             <ul>
                 <li>
-                    <a class="posts" class="menu" href="posts.html">
+                    <a class="posts" href="posts.html" alt="">
                         Posts
                     </a>
                 </li>
                 <li>
-                    <a class="posts" class="menu" href="usuarios.html">
+                    <a class="posts" href="usuarios.html" alt="">
                         Usuários
                     </a>
                 </li>
             </ul>
         </nav>
     </aside>
-    <section>
-        <h2 id="main-users" class="title3">Usuários</h2>
-        <div id="lista-de-users"></div>
-    </section>
-    <script src="javascript/users.js"></script>
+    <div>
+        <h2 class="title">Página Inicial</h2>
+        <video class="video" src="video.mp4" type="video/mp4"></video>
+    </div>
+    <script>
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+            .then(response => response.json())
+            .then(json => console.log(json))
+    </script>
 </body>
 
 </html>
